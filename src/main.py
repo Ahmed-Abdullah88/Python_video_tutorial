@@ -1,13 +1,8 @@
-# Finished video No. 2
+# Finished video No. 3
 
-greeting = 'Hello'
-name = input('Enter your name: ')
+num_1 = '100'
+num_2 = '200'
 
-# f-strings:
-# Available starting from python 3.6
-# Allows the use of methods inside the place holders as in this example:
-message = f'{greeting}, {name.title()}. Welcome!'
-
-print(message)
-
-print(help(name.lower))
+num_1 = int(num_1)
+num_2 = int(num_2)
+print(num_1 + num_2)
