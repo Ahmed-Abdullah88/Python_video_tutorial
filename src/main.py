@@ -1,4 +1,4 @@
-# Finished video No. 3
+# Finished video No. 4
 
 courses = ['History', 'Math', 'Physics', 'CompSci', 'Math']
 
@@ -16,3 +16,4 @@ print(courses)
 nums = [5, 2, 3, 4, 1]
 
 print(nums)
+print(type({}))
