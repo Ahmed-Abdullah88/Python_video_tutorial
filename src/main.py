@@ -1,8 +1,18 @@
 # Finished video No. 3
 
-num_1 = '100'
-num_2 = '200'
+courses = ['History', 'Math', 'Physics', 'CompSci', 'Math']
 
-num_1 = int(num_1)
-num_2 = int(num_2)
-print(num_1 + num_2)
+courses_2 = ['Art', 'Education']
+courses.extend(courses_2)
+print(courses)
+
+popped = courses.pop()
+print(popped)
+print(courses)
+courses.sort(reverse=True)
+courses.reverse()
+print(courses)
+
+nums = [5, 2, 3, 4, 1]
+
+print(nums)
