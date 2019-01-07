@@ -1,19 +1,19 @@
-# Finished video No. 4
+# Finished video No. 5
 
-courses = ['History', 'Math', 'Physics', 'CompSci', 'Math']
+student = {'name': 'john', 'age': 25, 'courses': ['Math', 'CompSci']}
 
-courses_2 = ['Art', 'Education']
-courses.extend(courses_2)
-print(courses)
+student.update({'name': 'Jane', 'age': 30, 'email': 'aa@aa.com'})
+# print(student.get('phone', 'Not Found'))
+print(student)
 
-popped = courses.pop()
-print(popped)
-print(courses)
-courses.sort(reverse=True)
-courses.reverse()
-print(courses)
+del student['email']
 
-nums = [5, 2, 3, 4, 1]
+age = student.pop('age')
+print(age)
+print(student)
+print(student.items())
 
-print(nums)
-print(type({}))
+print('*********************')
+
+for key, value in student.items():
+    print(key, value)
