@@ -1,8 +1,7 @@
-# Finished video No. 6
+# Finished video No. 7
 
-condition = 'Test String'
+x = 1
 
-if condition:
-    print('Evaluated to True')
-else:
-    print('Evaluated to False')
+while True:
+    print(x)
+    x += 1
