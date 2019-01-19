@@ -1,4 +1,4 @@
-'''Finished video No(10).'''
+'''Finished video No(11).'''
 
-# Setting sublime text for Python development
+# Setting Atom for Python development (but without applying, 'Cause no interest in Atom currently)
 
