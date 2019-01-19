@@ -1,4 +1,4 @@
-'''Finished video No(9).'''
+'''Finished video No(10).'''
 
-import antigravity
+# Setting sublime text for Python development
 
