@@ -1,4 +1,4 @@
-'''Finished video No(11).'''
+'''Finished video No(12).'''
 
-# Setting Atom for Python development (but without applying, 'Cause no interest in Atom currently)
+# Setting Eclipse for Python development (but without applying, 'Cause no interest in Eclipse currently)
 
